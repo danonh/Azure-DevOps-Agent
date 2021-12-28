@@ -6,7 +6,7 @@ docker build -t packercontainer:local .
 ```
 If you want to pass specific Packer, PowerShell or Packer_Windows_Update version you can modify those directly in the Dockefile.
 
-Alternatively you can pass specific product versions into build command:
+Alternatively you can pass specific product versions directly into build command:
 ```sh
 docker build -t packercontainer:local --build-arg PS_VERSION="7.1.4" --build-arg PACKER_VERSION="1.7.7" .
 ```
